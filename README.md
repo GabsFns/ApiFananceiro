@@ -41,25 +41,25 @@ docker-compose up --build
 ```
 A aplicação ficará disponível nas seguintes portas:
 
-Serviço	Porta
-API	8080
-PostgreSQL	5432
-Redis	6379
-RabbitMQ	5672 / 15672
-Swagger UI	http://localhost:8080/swagger-ui/index.html
+Serviço	Porta<br>
+API	8080<br>
+PostgreSQL	5432<br>
+Redis	6379<br>
+RabbitMQ	5672 / 15672<br>
+Swagger UI	http://localhost:8080/swagger-ui/index.html<br>
 
-#📖 Documentação da API
+### 📖 Documentação da API
 A documentação interativa das rotas está disponível via Swagger:
 ```bash
 http://localhost:8080/swagger-ui/index.html
 ```
-📊 Métricas e Observabilidade
+### 📊 Métricas e Observabilidade
 Métricas via Prometheus disponíveis em:
 ```bash
 http://localhost:8080/actuator/prometheu
 ```
 
-📄 Observações
+### 📄 Observações
 Projeto em evolução contínua.
 
 Novas rotas, serviços e integrações de segurança, escalabilidade e alta disponibilidade serão adicionadas.
